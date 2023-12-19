@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    max-height: fit-content;
+}
+
+body {
+    padding: 20px;
+    border: 24px;
+    background-color: white;
+    border-radius: 30px;
+    width: 50%;
+    margin: 8% 20%;
+}
+
+h1 {
+    color: blue;
+    font-weight: 500;
+    background-color: white;
+}
+
+form#conversion-form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    background-color: white;
+}
+
+input, label {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+div#result {
+    background-color: white;
+    padding: 5%;
+}
